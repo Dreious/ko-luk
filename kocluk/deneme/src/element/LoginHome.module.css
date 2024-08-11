@@ -1,0 +1,39 @@
+.container {
+    padding: 20px;
+  }
+  
+  .calendarSection, .notesSection {
+    margin-bottom: 20px;
+  }
+  
+  .noteInput {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .addButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .notesList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notesList li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
